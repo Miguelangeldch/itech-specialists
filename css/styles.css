@@ -1,0 +1,234 @@
+body {
+    font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 4.5rem;
+  line-height: 1.2;
+  background: -webkit-linear-gradient(#ffc04a, #ff6347);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 2rem;
+  /* font-weight: normal; */
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+
+h3 {
+  font-family: "Ubuntu";
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: #f03f0e;
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #3c3c3c;
+}
+
+p {
+  font-family: "Montserrat";
+  color: #8f8f8f;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+em {
+  color: #fff;
+  font-size: 1rem;
+}
+
+span {
+  font-family: "Montserrat";
+}
+
+
+
+/* NAVBAR */
+
+.nav-container{
+  padding: 0 5%;
+  height: 5rem;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-size: 1.3rem;
+  color: #3c3c3c;
+}
+
+
+.navbar-img {
+  width: 85px;
+}
+
+.lang-icon {
+  width: 26px;
+}
+
+
+/* TITLE */
+
+#home {
+  position: relative;
+  background-image: url(../images/bg-title.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding: 8% 0;
+  margin: 0;
+}
+
+
+
+.title-section {
+  padding: 8% 12%;
+  text-align: left;
+}
+
+/* PRESENTATION */
+
+#about-us {
+  padding: 8% 12%;
+  background-color: #fff;
+}
+
+.about-content {
+  margin: auto;
+}
+
+
+.about-img {
+  margin: auto;
+}
+
+.fa-5x {
+  color: #0766BDD9;
+  margin: 1.5rem 0 1.5rem;
+  background: rgba( 188, 203, 212, 0.2);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 6px );
+  -webkit-backdrop-filter: blur( 6px );
+  border-radius: 12px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 5%;
+}
+
+.fas:hover {
+  color: #ff9a9e;
+}
+
+.services-container {
+  padding-top: 3%;
+}
+
+
+/* TESTIMONIALS */
+
+#testimonials {
+  background: radial-gradient(#ff9a9e, #ff6347);
+  /* background-color: #ff6347; */
+  padding: 10%;
+  text-align: center;
+}
+
+.carousel-img {
+  width: 15%;
+  border-radius: 100%;
+  margin: 35px;
+}
+
+.carousel-item {
+    padding: 5% 15%;
+}
+
+.testimonial-text {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+/* CONTACT SECTION */
+
+#contact {
+  padding: 8% 12% 3%;
+  background-color: #fff;
+}
+
+.contact-title{
+  display: inline;
+}
+
+.fa-comments {
+  color: #0766bdd9
+}
+
+.form-control {
+  border-radius: 0.5rem;
+  margin-bottom: 2%;
+}
+
+.form-msg {
+  width: 100%;
+  height: 190px;
+}
+/* FOOTER  */
+
+#footer {
+  padding: 0 5%;
+}
+
+
+/* MEDIA  QUERY */
+
+@media (max-width: 1024px) {
+
+  h1{
+    font-size: 5.2rem;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+  }
+
+  h3 {
+    font-size: 2.8rem;
+  }
+
+  .presentation-paragraph {
+    font-size: 2.4rem;
+  }
+
+  .nav-item {
+    padding: 0;
+  }
+
+  .title-section {
+    text-align: center;
+    padding-top: 15%
+  }
+
+  #about-us {
+    padding: 3% 12%;
+  }
+
+  .about-img {
+    padding-top: 5%;
+  }
+
+  .about-container {
+  flex-direction: column-reverse;
+}
