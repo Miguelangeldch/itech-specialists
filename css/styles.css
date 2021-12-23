@@ -23,7 +23,6 @@ h2 {
 h3 {
   font-family: "Ubuntu";
   font-weight: 900;
-  font-size: 1.5rem;
   color: #f03f0e;
   font-size: 2.5rem;
 }
@@ -141,9 +140,17 @@ span {
 
 #testimonials {
   background: radial-gradient(#ff9a9e, #ff6347);
-  /* background-color: #ff6347; */
-  padding: 10%;
   text-align: center;
+  height: 50rem;
+}
+
+#carouselControls{
+  height:100%;
+}
+
+.carousel-inner {
+  height: 100%;
+  padding: 10% 0;
 }
 
 .carousel-img {
@@ -231,4 +238,10 @@ span {
 
   .about-container {
   flex-direction: column-reverse;
+}
+
+#testimonials {
+  height: 42rem;
+}
+
 }
